@@ -1,0 +1,4 @@
+Objectives
+	The aim of the simulation is to character the environments and conditions in which error correction is useful in comparison to error detection alone and to investigate the impact of error-correction encoding on the throughput of a communication channel.
+Program
+	The program runs a simulation that reads the user input for the following variables, error type, feedback, amount of blocks, size of frame, error probability, maxium bittime, number of trials followed by the trial seeds, burst error size and non-burst size. Outputs simulation parameters, throughput and average frames with a 95% confindence intereval.  Compiles with a make file, run by  using /esim -m b -a 50 -k 0 -f 4000 -e 0.0001 -r 5000000 -t 5 t1 t2 t3 4 t5 -b 500 -n 1000.
